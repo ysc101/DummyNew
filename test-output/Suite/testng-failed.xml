@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testpages.AdministrativeApprovalTest">
+        <methods>
+          <include name="BackbuttonisclickableforaainboxDYCAFO"/>
+          <include name="BackbuttonisclickableforaainboxCAFO"/>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="BackbuttonisclickableforaainboxHOD"/>
+        </methods>
+      </class> <!-- testpages.AdministrativeApprovalTest -->
+      <class name="testpages.BillEntryGeneralTest">
+        <methods>
+          <include name="InvoiceMenuButtonisClickableforcashier"/>
+          <include name="OkButtonisClickableforInvoice"/>
+          <include name="massslipisclickableforcashier"/>
+          <include name="massslipisclickable"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testpages.BillEntryGeneralTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testpages.AdministrativeApprovalTest">
+        <methods>
+          <include name="LogoutbuttonisclickableforCAFO"/>
+          <include name="BackbuttonisclickableforaainboxDYCAFO"/>
+          <include name="ViewAASlipforCAFOApproval"/>
+          <include name="yesbuttonisclickableforaaapprovalCAFO"/>
+          <include name="ApproveButtonisclickableCAFO"/>
+          <include name="BackbuttonisclickableforaainboxCAFO"/>
+          <include name="yesbuttonisclickableforlogoutasCAFO"/>
+          <include name="openBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="AAInboxIsclickableforCAFO"/>
+          <include name="SearchPramaforCAFOApproval"/>
+          <include name="BackbuttonisclickableforaainboxHOD"/>
+        </methods>
+      </class> <!-- testpages.AdministrativeApprovalTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
