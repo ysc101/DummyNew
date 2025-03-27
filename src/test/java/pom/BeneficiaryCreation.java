@@ -3,6 +3,8 @@ package pom;
 import java.awt.AWTException;
 
 import java.io.IOException;
+import java.time.Duration;
+
 import org.apache.poi.EncryptedDocumentException;
 
 import org.openqa.selenium.Keys;
@@ -10,10 +12,11 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import baseclasses.BaseClass;
-import baseclasses.CancelButtonClickInPrintWindow;
 import baseclasses.CommonUtils;
 
 public class BeneficiaryCreation extends BaseClass {
@@ -31,14 +34,14 @@ public class BeneficiaryCreation extends BaseClass {
 	@FindBy(xpath = "//a[normalize-space()='Master']")
 	public WebElement Mastermenu;
 
-	@FindBy(xpath = "//a[normalize-space()='Vendor Creation']")
+	@FindBy(xpath = "/html/body/form/div[5]/div[3]/div/div/ul/li[3]/ul/li[1]/a")
 	public WebElement vendorcreation;
 
 	@FindBy(xpath = "//input[@id='body_txtPartyName']")
 	public WebElement vendorname;
 
 	@FindBy(xpath = "//input[@id='body_txtMobile']")
-	public WebElement mobilenumber;
+	public WebElement mobile;
 
 	@FindBy(xpath = "//input[@id='body_txtEmail']")
 	public WebElement vendoremail;
@@ -153,11 +156,11 @@ public class BeneficiaryCreation extends BaseClass {
 	}
 
 	public void enterUserName() throws EncryptedDocumentException, IOException {
-		username.sendKeys(CommonUtils.getExcelData(1, 2));
+		username.sendKeys(CommonUtils.getExcelData(1, 1));
 	}
 
 	public void enterPassword() throws EncryptedDocumentException, IOException {
-		password.sendKeys(CommonUtils.getExcelData(1, 3));
+		password.sendKeys(CommonUtils.getExcelData(1, 2));
 	}
 
 	public void clickOnLogin() {
@@ -173,340 +176,45 @@ public class BeneficiaryCreation extends BaseClass {
 	}
 
 	public void enterPartyDetails() throws EncryptedDocumentException, IOException, InterruptedException {
-		vendorname.sendKeys(CommonUtils.getExcelData(36, 3));
-		vendorname.sendKeys(Keys.TAB);
-		Thread.sleep(1000);
+		vendorname.sendKeys(CommonUtils.getExcelData(2, 1));
+		// vendorname.sendKeys(Keys.TAB);
+		// Thread.sleep(1000);
 	}
 
 	public void entermobilenumberdetails()
 			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		mobilenumber.sendKeys(CommonUtils.getExcelData(37, 3));
-		mobilenumber.sendKeys(Keys.TAB);
 		Thread.sleep(1500);
+
+		mobile.sendKeys(CommonUtils.getExcelData(3, 1));
+		mobile.sendKeys(Keys.TAB);
+
 	}
 
 	public void enterEMailID() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendoremail.sendKeys(CommonUtils.getExcelData(38, 3));
-		vendoremail.sendKeys(Keys.TAB);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		WebElement emailField = wait.until(ExpectedConditions.elementToBeClickable(vendoremail));
+		emailField.sendKeys(CommonUtils.getExcelData(4, 1));
+		emailField.sendKeys(Keys.TAB);
 		Thread.sleep(1500);
 	}
 
 	public void entervendoraddress()
 			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendoraddress.sendKeys(CommonUtils.getExcelData(39, 3));
+		vendoraddress.sendKeys(CommonUtils.getExcelData(5, 1));
 		vendoraddress.sendKeys(Keys.TAB);
 		Thread.sleep(1500);
 	}
 
 	public void entervendorpincode()
 			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		pincode.sendKeys(CommonUtils.getExcelData(40, 3));
+		pincode.sendKeys(CommonUtils.getExcelData(6, 1));
 		pincode.sendKeys(Keys.TAB);
 		Thread.sleep(1500);
 	}
 
 	public void entervendorcity() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		city.sendKeys(CommonUtils.getExcelData(41, 3));
+		city.sendKeys(CommonUtils.getExcelData(7, 1));
 		city.sendKeys(Keys.TAB);
 		Thread.sleep(1500);
 	}
-
-	public void entervendorpan() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		// vendorpan.sendKeys(CommonUtils.getExcelData(42, 3));
-		pannumberMap = CommonUtils.generatePAN(5);
-		vendorpan.sendKeys(pannumberMap.get("PANNUMBER"));
-		Thread.sleep(1000);
-		vendorpan.sendKeys(Keys.TAB);
-
-		Thread.sleep(1500);
-	}
-
-	public void entervendortan() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendortan.sendKeys(CommonUtils.getExcelData(43, 3));
-		vendortan.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void entervendorgst() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendorgst.sendKeys(CommonUtils.getExcelData(44, 3));
-		vendorgst.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void entervendoradhar() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendoradhar.sendKeys(CommonUtils.generateAadharNumber(12));
-		vendoradhar.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void vendorIFSC() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendorIFSC.sendKeys(CommonUtils.getExcelData(46, 3));
-		vendorIFSC.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void entervendoracc() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		accNumber = CommonUtils.generateAccountNumber(18);
-		vendoracc.sendKeys(accNumber);
-		vendoracc.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void entervendoraccconfirm()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendoraccconfirm.sendKeys(accNumber);
-		vendoraccconfirm.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void uploadpassboookcopyfile()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadpassboook.sendKeys(CommonUtils.getExcelData(49, 3));
-		fileuploadpassboook.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickokafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadok.click();
-		Thread.sleep(1500);
-	}
-
-	public void clickonpassbookcopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadPassbook']");
-		Thread.sleep(1500);
-	}
-
-	public void uploadchequecopyfile()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadcheque.sendKeys(CommonUtils.getExcelData(50, 3));
-		fileuploadcheque.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickonchequecopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadCheck']");
-		Thread.sleep(1500);
-	}
-
-	public void uploadpancopyfile() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadpan.sendKeys(CommonUtils.getExcelData(51, 3));
-		fileuploadpan.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickonpancopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadPan']");
-		Thread.sleep(1500);
-	}
-
-	public void uploadtancopyfile() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadtan.sendKeys(CommonUtils.getExcelData(52, 3));
-		fileuploadtan.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickontancopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadTan']");
-		Thread.sleep(1500);
-	}
-
-	public void uploadgstcopyfile() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadgst.sendKeys(CommonUtils.getExcelData(53, 3));
-		fileuploadgst.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickongstcopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadGST']");
-		Thread.sleep(1500);
-	}
-
-	public void uploadadharcopyfile()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		fileuploadadhar.sendKeys(CommonUtils.getExcelData(54, 3));
-		fileuploadadhar.sendKeys(Keys.TAB);
-		Thread.sleep(1500);
-	}
-
-	public void clickonadharcopyafterfileupload()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CommonUtils.openOrdercopy("//span[@id='body_lblFileUploadAadhar']");
-		Thread.sleep(1500);
-	}
-
-	public void clickosaveforvendor()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendorsave.click();
-		Thread.sleep(1500);
-	}
-
-	public void clickosaveyesforvendor()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendorsaveyes.click();
-		Thread.sleep(1500);
-	}
-
-	public void clickosaveokforvendor()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		vendorsaveok.click();
-		Thread.sleep(1500);
-	}
-
-	public void clickonprintbutton()
-			throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		CancelButtonClickInPrintWindow aa = new CancelButtonClickInPrintWindow("CancelButtonClickInPrintWindow", 5000);
-		printbutton.click();
-		Thread.sleep(1500);
-	}
-
-	public void clickonbackbutton() throws EncryptedDocumentException, IOException, AWTException, InterruptedException {
-		backbutton.click();
-		Thread.sleep(1500);
-	}
-
-	public void ClicktoLogout() throws InterruptedException, EncryptedDocumentException, IOException {
-		logout.click();
-		Thread.sleep(1000);
-	}
-
-	public void ClicktoYesforLogout() throws InterruptedException, EncryptedDocumentException, IOException {
-		yeslogout.click();
-		Thread.sleep(1000);
-	}
-
-	public void enterUsernameforHOD() throws EncryptedDocumentException, IOException {
-		username.sendKeys(CommonUtils.getExcelData(3, 2));
-	}
-
-	public void enterPasswordforHOD() throws EncryptedDocumentException, IOException {
-		password.sendKeys(CommonUtils.getExcelData(3, 3));
-	}
-
-	public void clickOnLoginforHOD() {
-		login.click();
-	}
-
-	public void clickOnmanagementmenu() throws InterruptedException {
-		Management.click();
-		Thread.sleep(1000);
-	}
-
-	public void clickOnBeneficiaryapprovaltmenu() throws InterruptedException {
-		vendorapproval.click();
-		Thread.sleep(1000);
-	}
-
-	public void Clickoncheckbox() throws InterruptedException {
-		selectcheckbox.click();
-		Thread.sleep(1000);
-	}
-
-	public void Clickonapprovebutton() throws InterruptedException {
-		approvebutton.click();
-		Thread.sleep(1000);
-	}
-
-	public void Clickonyesbuttonforapproval() throws InterruptedException {
-		approveyesbutton.click();
-		Thread.sleep(1000);
-	}
-
-	public void Clickonokbuttonforapproval() throws InterruptedException {
-		approveokbutton.click();
-		Thread.sleep(1000);
-	}
-
-	public void checkTextFieldAcceptLessThan10Charercter()
-			throws EncryptedDocumentException, InterruptedException, IOException {
-		boolean digits = false;
-
-		mobilenumber.sendKeys("989898988977878");
-		String typedValue = mobilenumber.getAttribute("value");
-		Thread.sleep(1000);
-
-		int size = typedValue.length();
-		Thread.sleep(1000);
-		if (size == 10) {
-			digits = true;
-
-			System.out.println("More than 10 digits not allowed for mobile number textbox");
-
-		} else {
-			digits = false;
-			System.out.println("mobile number textbox accepting the more than 10 digits");
-		}
-		mobilenumber.clear();
-		Thread.sleep(1000);
-		Assert.assertTrue(digits);
-	}
-
-	public void checkTextFieldvalidations() throws EncryptedDocumentException, InterruptedException, IOException {
-//		boolean characters = false;
-		String expected = "45464654564467&^%^^&";
-		vendorname.sendKeys(expected);
-		String typedValue = vendorname.getAttribute("value").trim();
-		Thread.sleep(1000);
-		System.out.println("typed value=====" + typedValue);
-//		String txt = typedValue.toString();
-		if (expected.equalsIgnoreCase(typedValue)) {
-
-			System.out.println("Textfield Accept Alpabhets ");
-
-		} else {
-
-			System.out.println("Textfield Not Accept Alpabhets");
-		}
-		Assert.assertEquals(typedValue, expected);
-		vendorname.clear();
-		Thread.sleep(1000);
-	}
-
-	public void checkemailTextFieldvalidations() throws EncryptedDocumentException, InterruptedException, IOException {
-//		boolean characters = false;
-		String expected = "demo99@gmail.com";
-		vendoremail.sendKeys(expected);
-		String AccpetedValue = vendoremail.getAttribute("value").trim();
-		Thread.sleep(1000);
-		System.out.println("typed value ====" + AccpetedValue);
-//		String txt = typedValue.toString();
-		if (expected.equalsIgnoreCase(AccpetedValue)) {
-
-			System.out.println("Textfiled Accept valid email ");
-
-		} else {
-
-			System.out.println("Textfiled not accept email");
-		}
-		Assert.assertEquals(AccpetedValue, expected);
-		vendoremail.clear();
-		Thread.sleep(1000);
-	}
-//	public void TocheckthatEmailIDshouldnotacceptAlphanumeric() throws EncryptedDocumentException, InterruptedException, IOException {
-////		boolean characters = false;
-//		String expected = "EMAIL123456";
-//		vendoremail.sendKeys(expected);
-//		String AcceptedValue = vendoremail.getAttribute("value").trim();
-//		Thread.sleep(1000);
-//		System.out.println("typed value ====" + AcceptedValue);
-////		String txt = typedValue.toString();
-//		if (expected.equalsIgnoreCase(AcceptedValue)) {
-//
-//			System.out.println("Textfiled Accept Alphanumeric ");
-//
-//		} else {
-//
-//			System.out.println("Textfiled not accept Alphanumeric ");
-//		}
-//		Assert.assertEquals(AcceptedValue, expected);
-//		vendoremail.clear();
-//		Thread.sleep(1000);
-//	}
-//	
-
 }

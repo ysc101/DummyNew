@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testpages.AdministrativeApprovalTest">
+      <class name="testpages.BeneficiaryCreationTest">
         <methods>
-          <include name="LogoutbuttonisclickableforCAFO"/>
-          <include name="BackbuttonisclickableforaainboxDYCAFO"/>
-          <include name="ViewAASlipforCAFOApproval"/>
-          <include name="yesbuttonisclickableforaaapprovalCAFO"/>
-          <include name="ApproveButtonisclickableCAFO"/>
-          <include name="BackbuttonisclickableforaainboxCAFO"/>
-          <include name="yesbuttonisclickableforlogoutasCAFO"/>
-          <include name="openBrowser"/>
+          <include name="emailIDcanbeenter"/>
           <include name="CloseBrowser"/>
-          <include name="AAInboxIsclickableforCAFO"/>
-          <include name="SearchPramaforCAFOApproval"/>
-          <include name="BackbuttonisclickableforaainboxHOD"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- testpages.AdministrativeApprovalTest -->
+      </class> <!-- testpages.BeneficiaryCreationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
