@@ -1,57 +1,981 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="65" passed="55" failed="10" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T18:29:33 IST" name="Default suite" finished-at="2025-03-26T18:29:58 IST" duration-ms="24408">
+  <suite started-at="2023-07-11T16:08:25 IST" name="Default suite" finished-at="2023-07-11T16:09:52 IST" duration-ms="86680">
     <groups>
     </groups>
-    <test started-at="2025-03-26T18:29:33 IST" name="Default test" finished-at="2025-03-26T18:29:58 IST" duration-ms="24408">
-      <class name="testpages.BeneficiaryCreationTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:33 IST" name="openBrowser" finished-at="2025-03-26T18:29:41 IST" duration-ms="8153" status="PASS">
+    <test started-at="2023-07-11T16:08:25 IST" name="Default test" finished-at="2023-07-11T16:09:52 IST" duration-ms="86680">
+      <class name="testpages.AdministrativeApprovalTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:25 IST" name="openBrowser" finished-at="2023-07-11T16:08:29 IST" duration-ms="3653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginWithMaker()[pri:0, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:41 IST" name="loginWithMaker" finished-at="2025-03-26T18:29:42 IST" duration-ms="971" status="PASS">
+        <test-method signature="loginWithMaker()[pri:0, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:29 IST" name="loginWithMaker" finished-at="2023-07-11T16:08:30 IST" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithMaker -->
-        <test-method signature="MasterMenuisClickable()[pri:1, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:42 IST" name="MasterMenuisClickable" finished-at="2025-03-26T18:29:44 IST" duration-ms="2059" status="PASS">
+        <test-method signature="AdministrativeWorkIsClickable()[pri:1, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:30 IST" name="AdministrativeWorkIsClickable" finished-at="2023-07-11T16:08:31 IST" duration-ms="1311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MasterMenuisClickable -->
-        <test-method signature="vendorcreationMenuisclickable()[pri:2, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:44 IST" name="vendorcreationMenuisclickable" finished-at="2025-03-26T18:29:45 IST" duration-ms="416" status="PASS">
+        </test-method> <!-- AdministrativeWorkIsClickable -->
+        <test-method signature="AdministrativeDeatilsIsHovering()[pri:2, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:31 IST" name="AdministrativeDeatilsIsHovering" finished-at="2023-07-11T16:08:32 IST" duration-ms="1142" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorcreationMenuisclickable -->
-        <test-method signature="BenefiicaryNamecanbeenter()[pri:3, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:45 IST" name="BenefiicaryNamecanbeenter" finished-at="2025-03-26T18:29:45 IST" duration-ms="91" status="PASS">
+        </test-method> <!-- AdministrativeDeatilsIsHovering -->
+        <test-method signature="AdministrativeApprovalCreationIsClickable()[pri:3, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:32 IST" name="AdministrativeApprovalCreationIsClickable" finished-at="2023-07-11T16:08:34 IST" duration-ms="1248" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BenefiicaryNamecanbeenter -->
-        <test-method signature="MobileNumbercanbeenter()[pri:4, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:45 IST" name="MobileNumbercanbeenter" finished-at="2025-03-26T18:29:49 IST" duration-ms="3637" status="PASS">
+        </test-method> <!-- AdministrativeApprovalCreationIsClickable -->
+        <test-method signature="rokhvahigatIsSelectable()[pri:4, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:34 IST" name="rokhvahigatIsSelectable" finished-at="2023-07-11T16:08:35 IST" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileNumbercanbeenter -->
-        <test-method signature="emailIDcanbeenter()[pri:5, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:49 IST" name="emailIDcanbeenter" finished-at="2025-03-26T18:29:50 IST" duration-ms="1723" status="PASS">
+        </test-method> <!-- rokhvahigatIsSelectable -->
+        <test-method signature="rokhvahiIsSelectable()[pri:5, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:35 IST" name="rokhvahiIsSelectable" finished-at="2023-07-11T16:08:36 IST" duration-ms="1171" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailIDcanbeenter -->
-        <test-method signature="Addresscanbeenter()[pri:6, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:50 IST" name="Addresscanbeenter" finished-at="2025-03-26T18:29:52 IST" duration-ms="1631" status="PASS">
+        </test-method> <!-- rokhvahiIsSelectable -->
+        <test-method signature="Enterheadcode()[pri:6, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:36 IST" name="Enterheadcode" finished-at="2023-07-11T16:08:37 IST" duration-ms="1191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Addresscanbeenter -->
-        <test-method signature="vendorpincodecanbeenter()[pri:7, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:52 IST" name="vendorpincodecanbeenter" finished-at="2025-03-26T18:29:54 IST" duration-ms="1641" status="PASS">
+        </test-method> <!-- Enterheadcode -->
+        <test-method signature="HeadcodeisSelectable()[pri:7, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:37 IST" name="HeadcodeisSelectable" finished-at="2023-07-11T16:08:38 IST" duration-ms="1048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorpincodecanbeenter -->
-        <test-method signature="vendorcitycanbeenter()[pri:8, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:54 IST" name="vendorcitycanbeenter" finished-at="2025-03-26T18:29:55 IST" duration-ms="1659" status="PASS">
+        </test-method> <!-- HeadcodeisSelectable -->
+        <test-method signature="AAYearisSelectable()[pri:8, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:38 IST" name="AAYearisSelectable" finished-at="2023-07-11T16:08:39 IST" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vendorcitycanbeenter -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testpages.BeneficiaryCreationTest@ed7f8b4]" started-at="2025-03-26T18:29:55 IST" name="CloseBrowser" finished-at="2025-03-26T18:29:58 IST" duration-ms="2335" status="PASS">
+        </test-method> <!-- AAYearisSelectable -->
+        <test-method signature="TalukaIsSelectable()[pri:9, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:39 IST" name="TalukaIsSelectable" finished-at="2023-07-11T16:08:41 IST" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TalukaIsSelectable -->
+        <test-method signature="VillageIsSelectable()[pri:10, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:41 IST" name="VillageIsSelectable" finished-at="2023-07-11T16:08:42 IST" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VillageIsSelectable -->
+        <test-method signature="CanEnterConstiuency()[pri:11, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:42 IST" name="CanEnterConstiuency" finished-at="2023-07-11T16:08:43 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanEnterConstiuency -->
+        <test-method signature="canEnterpramanumber()[pri:12, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:43 IST" name="canEnterpramanumber" finished-at="2023-07-11T16:08:43 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canEnterpramanumber -->
+        <test-method signature="PrmaDatefieldIsSelectable()[pri:13, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:43 IST" name="PrmaDatefieldIsSelectable" finished-at="2023-07-11T16:08:44 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrmaDatefieldIsSelectable -->
+        <test-method signature="PrmaDateIsSelectable()[pri:14, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:44 IST" name="PrmaDateIsSelectable" finished-at="2023-07-11T16:08:45 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrmaDateIsSelectable -->
+        <test-method signature="canEnterpramaamount()[pri:15, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:45 IST" name="canEnterpramaamount" finished-at="2023-07-11T16:08:46 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canEnterpramaamount -->
+        <test-method signature="fileuploadispossible()[pri:16, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:46 IST" name="fileuploadispossible" finished-at="2023-07-11T16:08:48 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileuploadispossible -->
+        <test-method signature="fileuploadbuttonisclicakble()[pri:17, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:48 IST" name="fileuploadbuttonisclicakble" finished-at="2023-07-11T16:08:49 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileuploadbuttonisclicakble -->
+        <test-method signature="aasavebuttonisclickable()[pri:18, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:49 IST" name="aasavebuttonisclickable" finished-at="2023-07-11T16:08:50 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aasavebuttonisclickable -->
+        <test-method signature="aayesbuttonisclickable()[pri:19, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:50 IST" name="aayesbuttonisclickable" finished-at="2023-07-11T16:08:51 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aayesbuttonisclickable -->
+        <test-method signature="aaokbuttonisclickable()[pri:20, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:51 IST" name="aaokbuttonisclickable" finished-at="2023-07-11T16:08:52 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaokbuttonisclickable -->
+        <test-method signature="Backbuttonisclickable()[pri:21, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:52 IST" name="Backbuttonisclickable" finished-at="2023-07-11T16:08:53 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Backbuttonisclickable -->
+        <test-method signature="AdministrativeWorkIsClickable1()[pri:22, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:53 IST" name="AdministrativeWorkIsClickable1" finished-at="2023-07-11T16:08:54 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdministrativeWorkIsClickable1 -->
+        <test-method signature="MovetoAADetails()[pri:23, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:54 IST" name="MovetoAADetails" finished-at="2023-07-11T16:08:55 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoAADetails -->
+        <test-method signature="ClickonAAoutbox()[pri:24, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:55 IST" name="ClickonAAoutbox" finished-at="2023-07-11T16:08:57 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonAAoutbox -->
+        <test-method signature="StatusIsSelectable()[pri:25, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:57 IST" name="StatusIsSelectable" finished-at="2023-07-11T16:08:58 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusIsSelectable -->
+        <test-method signature="SearchTextboxacceptcharacters()[pri:26, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:58 IST" name="SearchTextboxacceptcharacters" finished-at="2023-07-11T16:08:59 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTextboxacceptcharacters -->
+        <test-method signature="aaslipdisplay()[pri:27, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:08:59 IST" name="aaslipdisplay" finished-at="2023-07-11T16:09:00 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaslipdisplay -->
+        <test-method signature="Backbuttonisclickable1()[pri:28, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:00 IST" name="Backbuttonisclickable1" finished-at="2023-07-11T16:09:01 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Backbuttonisclickable1 -->
+        <test-method signature="AAOutboxBackButtonisclickable()[pri:29, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:01 IST" name="AAOutboxBackButtonisclickable" finished-at="2023-07-11T16:09:02 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAOutboxBackButtonisclickable -->
+        <test-method signature="Logoutbuttonisclickable()[pri:30, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:02 IST" name="Logoutbuttonisclickable" finished-at="2023-07-11T16:09:03 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logoutbuttonisclickable -->
+        <test-method signature="yesbuttonisclickableforlogout()[pri:31, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:03 IST" name="yesbuttonisclickableforlogout" finished-at="2023-07-11T16:09:05 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforlogout -->
+        <test-method signature="loginWithHOD()[pri:32, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:05 IST" name="loginWithHOD" finished-at="2023-07-11T16:09:06 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithHOD -->
+        <test-method signature="AdministrativeWorkIsClickable2()[pri:33, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:06 IST" name="AdministrativeWorkIsClickable2" finished-at="2023-07-11T16:09:07 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdministrativeWorkIsClickable2 -->
+        <test-method signature="MovetoAdministrativeApprovalDetails()[pri:34, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:07 IST" name="MovetoAdministrativeApprovalDetails" finished-at="2023-07-11T16:09:08 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoAdministrativeApprovalDetails -->
+        <test-method signature="AAInboxIsclickable()[pri:35, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:08 IST" name="AAInboxIsclickable" finished-at="2023-07-11T16:09:09 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAInboxIsclickable -->
+        <test-method signature="SearchPramaforHODApproval()[pri:36, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:09 IST" name="SearchPramaforHODApproval" finished-at="2023-07-11T16:09:10 IST" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPramaforHODApproval -->
+        <test-method signature="ViewAASlipforApproval()[pri:37, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:10 IST" name="ViewAASlipforApproval" finished-at="2023-07-11T16:09:12 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAASlipforApproval -->
+        <test-method signature="ApproveButtonisclickable()[pri:38, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:12 IST" name="ApproveButtonisclickable" finished-at="2023-07-11T16:09:13 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveButtonisclickable -->
+        <test-method signature="yesbuttonisclickableforaaapproval()[pri:39, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:13 IST" name="yesbuttonisclickableforaaapproval" finished-at="2023-07-11T16:09:14 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforaaapproval -->
+        <test-method signature="BackbuttonisclickableforaainboxHOD()[pri:40, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:14 IST" name="BackbuttonisclickableforaainboxHOD" finished-at="2023-07-11T16:09:24 IST" duration-ms="10045" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/input\[\@id\=\'body_Button1\'\]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/input\[\@id\=\'body_Button1\'\]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickforBackafterAAApproval(AdministrativeApproval.java:339)
+at testpages.AdministrativeApprovalTest.BackbuttonisclickableforaainboxHOD(AdministrativeApprovalTest.java:248)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackbuttonisclickableforaainboxHOD -->
+        <test-method signature="LogoutbuttonisclickableforHOD()[pri:41, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:24 IST" name="LogoutbuttonisclickableforHOD" finished-at="2023-07-11T16:09:25 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutbuttonisclickableforHOD -->
+        <test-method signature="yesbuttonisclickableforlogoutasHOD()[pri:42, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:25 IST" name="yesbuttonisclickableforlogoutasHOD" finished-at="2023-07-11T16:09:26 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforlogoutasHOD -->
+        <test-method signature="loginWithDYCAFO()[pri:43, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:26 IST" name="loginWithDYCAFO" finished-at="2023-07-11T16:09:27 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithDYCAFO -->
+        <test-method signature="AdministrativeWorkIsClickable3()[pri:44, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:27 IST" name="AdministrativeWorkIsClickable3" finished-at="2023-07-11T16:09:28 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdministrativeWorkIsClickable3 -->
+        <test-method signature="MovetoAdministrativeApprovalDetailsDYCAFO()[pri:45, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:28 IST" name="MovetoAdministrativeApprovalDetailsDYCAFO" finished-at="2023-07-11T16:09:29 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoAdministrativeApprovalDetailsDYCAFO -->
+        <test-method signature="AAInboxIsclickableforDYCAFO()[pri:46, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:29 IST" name="AAInboxIsclickableforDYCAFO" finished-at="2023-07-11T16:09:30 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAInboxIsclickableforDYCAFO -->
+        <test-method signature="SearchPramaforDYCAFOApproval()[pri:47, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:30 IST" name="SearchPramaforDYCAFOApproval" finished-at="2023-07-11T16:09:31 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPramaforDYCAFOApproval -->
+        <test-method signature="ViewAASlipforDYCAFOApproval()[pri:48, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:31 IST" name="ViewAASlipforDYCAFOApproval" finished-at="2023-07-11T16:09:33 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAASlipforDYCAFOApproval -->
+        <test-method signature="ApproveButtonisclickableDYCAFO()[pri:49, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:33 IST" name="ApproveButtonisclickableDYCAFO" finished-at="2023-07-11T16:09:34 IST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveButtonisclickableDYCAFO -->
+        <test-method signature="yesbuttonisclickableforaaapprovalDYCAFO()[pri:50, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:34 IST" name="yesbuttonisclickableforaaapprovalDYCAFO" finished-at="2023-07-11T16:09:35 IST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforaaapprovalDYCAFO -->
+        <test-method signature="BackbuttonisclickableforaainboxDYCAFO()[pri:51, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:35 IST" name="BackbuttonisclickableforaainboxDYCAFO" finished-at="2023-07-11T16:09:45 IST" duration-ms="10019" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/input\[\@id\=\'body_Button1\'\]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/input\[\@id\=\'body_Button1\'\]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickforBackafterAAApproval(AdministrativeApproval.java:339)
+at testpages.AdministrativeApprovalTest.BackbuttonisclickableforaainboxDYCAFO(AdministrativeApprovalTest.java:306)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackbuttonisclickableforaainboxDYCAFO -->
+        <test-method signature="LogoutbuttonisclickableforDYCAFO()[pri:52, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:45 IST" name="LogoutbuttonisclickableforDYCAFO" finished-at="2023-07-11T16:09:46 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutbuttonisclickableforDYCAFO -->
+        <test-method signature="yesbuttonisclickableforlogoutasDYCAFO()[pri:53, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:46 IST" name="yesbuttonisclickableforlogoutasDYCAFO" finished-at="2023-07-11T16:09:47 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforlogoutasDYCAFO -->
+        <test-method signature="loginWithCAFO()[pri:54, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:47 IST" name="loginWithCAFO" finished-at="2023-07-11T16:09:48 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCAFO -->
+        <test-method signature="AdministrativeWorkIsClickable4()[pri:55, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:48 IST" name="AdministrativeWorkIsClickable4" finished-at="2023-07-11T16:09:49 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdministrativeWorkIsClickable4 -->
+        <test-method signature="MovetoAdministrativeApprovalDetailsCAFO()[pri:56, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:49 IST" name="MovetoAdministrativeApprovalDetailsCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoAdministrativeApprovalDetailsCAFO -->
+        <test-method signature="AAInboxIsclickableforCAFO()[pri:57, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="AAInboxIsclickableforCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="3" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//a[normalize-space()='Administrative Approval (Inwards)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//a[normalize-space()='Administrative Approval (Inwards)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickOnAAInbox(AdministrativeApproval.java:329)
+at testpages.AdministrativeApprovalTest.AAInboxIsclickableforCAFO(AdministrativeApprovalTest.java:339)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AAInboxIsclickableforCAFO -->
+        <test-method signature="SearchPramaforCAFOApproval()[pri:58, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="SearchPramaforCAFOApproval" finished-at="2023-07-11T16:09:50 IST" duration-ms="6" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@type='search']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@type='search']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at pom.AdministrativeApproval.SearhPramaNumber(AdministrativeApproval.java:282)
+at testpages.AdministrativeApprovalTest.SearchPramaforCAFOApproval(AdministrativeApprovalTest.java:344)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPramaforCAFOApproval -->
+        <test-method signature="ViewAASlipforCAFOApproval()[pri:59, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="ViewAASlipforCAFOApproval" finished-at="2023-07-11T16:09:50 IST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//div[@class='btnDatatable']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//div[@class='btnDatatable']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickonaaslip(AdministrativeApproval.java:294)
+at testpages.AdministrativeApprovalTest.ViewAASlipforCAFOApproval(AdministrativeApprovalTest.java:349)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAASlipforCAFOApproval -->
+        <test-method signature="ApproveButtonisclickableCAFO()[pri:60, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="ApproveButtonisclickableCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="7" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='body_btnApprove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='body_btnApprove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickforAAApproval(AdministrativeApproval.java:334)
+at testpages.AdministrativeApprovalTest.ApproveButtonisclickableCAFO(AdministrativeApprovalTest.java:354)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveButtonisclickableCAFO -->
+        <test-method signature="yesbuttonisclickableforaaapprovalCAFO()[pri:61, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="yesbuttonisclickableforaaapprovalCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='body_btnYes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='body_btnYes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.aayesbutton(AdministrativeApproval.java:259)
+at testpages.AdministrativeApprovalTest.yesbuttonisclickableforaaapprovalCAFO(AdministrativeApprovalTest.java:359)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforaaapprovalCAFO -->
+        <test-method signature="BackbuttonisclickableforaainboxCAFO()[pri:62, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="BackbuttonisclickableforaainboxCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="6" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=id, value=//input[@id='body_Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.clickforBackafterAAApproval(AdministrativeApproval.java:339)
+at testpages.AdministrativeApprovalTest.BackbuttonisclickableforaainboxCAFO(AdministrativeApprovalTest.java:364)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackbuttonisclickableforaainboxCAFO -->
+        <test-method signature="LogoutbuttonisclickableforCAFO()[pri:63, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="LogoutbuttonisclickableforCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='btnLogout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='btnLogout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.ClicktoLogout(AdministrativeApproval.java:304)
+at testpages.AdministrativeApprovalTest.LogoutbuttonisclickableforCAFO(AdministrativeApprovalTest.java:369)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutbuttonisclickableforCAFO -->
+        <test-method signature="yesbuttonisclickableforlogoutasCAFO()[pri:64, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="yesbuttonisclickableforlogoutasCAFO" finished-at="2023-07-11T16:09:50 IST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='btnYesLogout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-5G1UN2J', ip: '192.168.0.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9198989cdbd621f542980a1fe3115a1, findElement {using=xpath, value=//input[@id='btnYesLogout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\YOGESH~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60899}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60899/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9198989cdbd621f542980a1fe3115a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pom.AdministrativeApproval.ClicktoYesforLogout(AdministrativeApproval.java:310)
+at testpages.AdministrativeApprovalTest.yesbuttonisclickableforlogoutasCAFO(AdministrativeApprovalTest.java:374)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yesbuttonisclickableforlogoutasCAFO -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testpages.AdministrativeApprovalTest@4135c3b]" started-at="2023-07-11T16:09:50 IST" name="CloseBrowser" finished-at="2023-07-11T16:09:52 IST" duration-ms="2202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- testpages.BeneficiaryCreationTest -->
+      </class> <!-- testpages.AdministrativeApprovalTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
